@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+:root{ --amarillo:#EAC926;
+       --Azul: #03264C;
+       --Celeste: #1259c3;
+       --Gris-oscuro: #666;
+       --Gris-claro: #ebebeb;
+       --Verde: #39b54a;
+
+}
+
+header{
+    width: max-content;
+    background-color: var(--amarillo); 
+    padding: auto; 
+}
+
+
+body {
+    width: 90vw;
+    min-height: calc(100vh- 50px- 25px);
+    background-color: #fff;
+    
+}
+main {   
+    width: 90%;
+    align-items: center;
+    margin: auto;      
+}
+
+
+
+article .cartilla-producto{
+    margin-top: 10px;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    
+}
+
+.articulo-settings{
+    border-top: 1px solid #ebebeb;
+    padding: 15 px;
+}
+
+
+div {
+    border-top: 1px solid #ebebeb;
+    border: 15px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    padding-left: 2rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h4{
+    font-size: 24px;
+    text-align: center;
+}
+
+.precios {
+    font-size: 18px;
+    width: 30vw;
+    
+}
+.descuentos {
+    font-size: 16px;
+    color: var(--Verde);
+    width: 70vw;
+}
+.descripciones {
+    font-size: 16px;
+}
+   
+
+.buscador{
+    padding-left: 2rem;
+}
+
+.burger-menu {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ebebeb;
+    background-color: var(--Azul);
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+    justify-content: space-around;
+}
+
+.banner {    
+    max-height: fit-content;
+
+}
+
+
+.camion {
+    color: #39b54a;
+    border-radius: 50% solid #39b5 ;
+    border-color: #39b54a;
+    font-size: x-large;
+}
+
+
+main section .camion i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: -1200px;
+    top: -30px;
+}
+
+.contenedor-precios {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    
+}
+
+body header section .contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:  row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+
+
+ul li{
+    list-style-type: none;
+
+}
+
+nav li {
+    list-style-type: none;
+
+}
+
+ul {
+    text-align: center;
+}
+.i footer{
+    color: var(--Azul);
+}
+
+
+
+@media (max-width: 425px){
+    .descripciones, .nav-bar, .site{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    article .cartilla-producto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+
+}
+
