@@ -2,9 +2,9 @@
   "name": "proyecto_implementadoml",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node App.js"
+    "test": "node app.js"
   },
   "author": "",
   "license": "ISC",
